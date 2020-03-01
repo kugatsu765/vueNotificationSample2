@@ -55,36 +55,38 @@
       </div>
     </form>
 
-    <button
-      @click="notif('new');"
-      type="button"
-      class="p-2 px-3 rounded mx-2 bg-blue-500 hover:bg-blue-700 hover:shadow text-white btn-light"
-    >Primary</button>
-    <button
-      @click="notif('dark');"
-      type="button"
-      class="p-2 px-3 rounded mx-2 bg-gray-800 hover:bg-gray-900 hover:shadow text-white btn-dark"
-    >dark</button>
-    <button
-      @click="notif('success');"
-      type="button"
-      class="p-2 px-3 rounded mx-2 bg-green-500 hover:bg-green-700 hover:shadow text-white btn-success"
-    >success</button>
-    <button
-      @click="notif('error');"
-      type="button"
-      class="p-2 px-3 rounded mx-2 bg-red-500 hover:bg-red-700 hover:shadow text-white btn-danger"
-    >error</button>
-    <button
-      @click="notif('warning');"
-      type="button"
-      class="p-2 px-3 rounded mx-2 bg-orange-500 hover:bg-orange-700 hover:shadow text-white btn-warning"
-    >warning</button>
-    <button
-      @click="remove();"
-      type="button"
-      class="p-2 px-3 rounded mx-2 bg-purple-500 hover:bg-purple-700 hover:shadow text-white btn-dark"
-    >Remove All</button>
+    <div class="flex flex-row justify-center">
+      <button
+        @click="notif('new');"
+        type="button"
+        class="p-2 px-3 rounded mx-2 bg-blue-500 hover:bg-blue-700 hover:shadow text-white btn-light"
+      >Primary</button>
+      <button
+        @click="notif('dark');"
+        type="button"
+        class="p-2 px-3 rounded mx-2 bg-gray-800 hover:bg-gray-900 hover:shadow text-white btn-dark"
+      >dark</button>
+      <button
+        @click="notif('success');"
+        type="button"
+        class="p-2 px-3 rounded mx-2 bg-green-500 hover:bg-green-700 hover:shadow text-white btn-success"
+      >success</button>
+      <button
+        @click="notif('error');"
+        type="button"
+        class="p-2 px-3 rounded mx-2 bg-red-500 hover:bg-red-700 hover:shadow text-white btn-danger"
+      >error</button>
+      <button
+        @click="notif('warning');"
+        type="button"
+        class="p-2 px-3 rounded mx-2 bg-orange-500 hover:bg-orange-700 hover:shadow text-white btn-warning"
+      >warning</button>
+      <button
+        @click="remove();"
+        type="button"
+        class="p-2 px-3 rounded mx-2 bg-purple-500 hover:bg-purple-700 hover:shadow text-white btn-dark"
+      >Remove All</button>
+    </div>
   </div>
 </template>
 
